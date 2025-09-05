@@ -18,16 +18,10 @@ from typing import List, TypeVar
 
 
 def absolute(n: int) -> int:
-    """Gives the absolute value of the passed in number. Cannot use the built in
-    function `abs`.
-
-    Args:
-        n - the number to take the absolute value of
-
-    Returns:
-        the absolute value of the passed in number
-    """
-    raise NotImplementedError("absolute")
+    if n<0:
+        return -n
+    else: 
+        return n
 
 
 def factorial(n: int) -> int:
