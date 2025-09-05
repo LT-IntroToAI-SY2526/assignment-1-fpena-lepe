@@ -1,5 +1,5 @@
 # Assignment 1: AI-Generated Python Problems
-# Name: [Your Name Here]
+# Name: Franco Pena-Lepe
 
 """
 AI-Generated Problem Set
@@ -20,7 +20,11 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[Paste the prompt you used to generate your problem set here]
+"I'm learning Python basics in a high school programming class.
+ I have some experience with Java, i took ap csa last year, but i havent coded in 3-4 months. 
+ I have zero experience with python Can you create 5-7 practice problems that cover:
+> - Variables and basic data types > - Conditionals (if/elif/else) > - Loops (for and while) > - Functions > - Basic list operations > > 
+Make them progressively more challenging. Make sure each problem has clear instructions and example inputs/outputs."
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -31,25 +35,70 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 # =============================================================================
 
 """
-PROBLEM 1: [Problem Title/Description]
-[Copy the complete problem description from your AI assistant]
-
-Example:
-Problem: Write a function called 'is_even' that takes an integer and returns 
-True if the number is even, False if it's odd.
-
-Example inputs/outputs:
-- is_even(4) should return True
-- is_even(7) should return False
+PROBLEM 1: Variable Practice: Greeting Bot
+Topic: Variables & strings
+Description:
+Create a program that stores your name in a variable and prints a greeting like "Hello, <name>!"
 """
+name="Franco"
+print("Hello "+name)
+
+"""
+Problem 2: Odd or Even Checker
+Topic: Conditionals
+Description:
+Ask the user to input an integer. Print "Even" if the number is even, and "Odd" if it’s odd.
+Hint: Use the modulo operator %.
+"""
+num=int(input("Enter a number:"))
+if num%2==0:
+    print("even")
+
+else:
+    print("odd")
 
 
+"""
+    Problem 3:
+    3. Countdown Timer
+    Topic: Loops (while loop)
+    Description:
+    Write a program that asks the user for a starting number, then counts down to 0, printing each number.
+    """
+start=int(input("enter a starting number:"))
+for num in range(start,-1,-1):
+    print(num)
 
 
+"""
+Problem 4:
+4. Multiples Printer
+Topic: Loops (for loop)
+Description:
+Create a function print_multiples(n) that prints all multiples of 3 from 1 to n (inclusive).
 
+Problem 5:
+5. Grade Categorizer
+Topic: Conditionals + Functions
+Description:
+Write a function categorize_grade(score) that takes a number 0–100 and returns a letter grade based on this scale:
+90–100: A
+80–89: B
+70–79: C
+60–69: D
+Below 60: F
 
+Problem 6:
+6. Sum of List
+Topic: Lists + Loops
+Description:
+Write a function sum_list(numbers) that takes a list of numbers and returns the total sum.
 
-
+Problem 7:
+Find the Maximum
+Topic: Lists + Loops + Conditionals
+Description:
+Write a function find_max(lst) that returns the largest number in a list without using the built-in max() function.
 
 
 
