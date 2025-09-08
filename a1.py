@@ -76,7 +76,14 @@ Problem 4:
 Topic: Loops (for loop)
 Description:
 Create a function print_multiples(n) that prints all multiples of 3 from 1 to n (inclusive).
+"""
+def print_multiples(n: int)-> None:
+    for num in range(1,n+1,1):
+        if num%3==0:
+            print(num)
 
+
+    """
 Problem 5:
 5. Grade Categorizer
 Topic: Conditionals + Functions
@@ -87,7 +94,19 @@ Write a function categorize_grade(score) that takes a number 0–100 and returns
 70–79: C
 60–69: D
 Below 60: F
-
+"""
+def categorize_grade(score: int)-> str:
+    if score>=90:
+        return "A"
+    elif score>=80:
+        return "B"
+    elif score>=70:
+        return "C"
+    elif score>=60:
+        return "D"
+    elif score<60:
+        return "F"
+    """
 Problem 6:
 6. Sum of List
 Topic: Lists + Loops

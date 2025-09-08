@@ -25,16 +25,13 @@ def absolute(n: int) -> int:
 
 
 def factorial(n: int) -> int:
-    """Takes a number n, and computes the factorial n! You can assume the passed in
-    number will be positive
+    number=1
+    for num in range(n,1,-1):
+        number=number*num
+    return number
 
-    Args:
-        n - the number to compute factorial of
 
-    Returns:
-        factorial of the passed in number
-    """
-    raise NotImplementedError("factorial")
+    
 
 
 T = TypeVar("T")
