@@ -112,7 +112,14 @@ Problem 6:
 Topic: Lists + Loops
 Description:
 Write a function sum_list(numbers) that takes a list of numbers and returns the total sum.
+"""
+def sum_list(numbers: list)-> int:
+    total=0
+    for i in numbers:
+        total+=i
+    return total
 
+    """
 Problem 7:
 Find the Maximum
 Topic: Lists + Loops + Conditionals
