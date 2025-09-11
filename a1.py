@@ -125,8 +125,13 @@ Find the Maximum
 Topic: Lists + Loops + Conditionals
 Description:
 Write a function find_max(lst) that returns the largest number in a list without using the built-in max() function.
-
-
+"""
+def find_max(lst: list)-> int:
+    big=lst[0]
+    for i in lst:
+        if i>big:
+            big=i
+    return big
 
 # =============================================================================
 # PART 3: TESTING YOUR SOLUTIONS
