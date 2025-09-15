@@ -105,7 +105,7 @@ def categorize_grade(score: int)-> str:
         return "C"
     elif score>=60:
         return "D"
-    elif score<60:
+    else:
         return "F"
     """
 Problem 6:
@@ -150,19 +150,17 @@ print(f"is_even(4): {is_even(4)}")  # Should print True
 print(f"is_even(7): {is_even(7)}")  # Should print False
 """
 
-print("Testing Problem 1:")
+#problems 1-3 werent functions but i checked them in the terminal
 # Add your tests here
 
-print("\nTesting Problem 2:")
+print("problem 4:") 
+print_multiples(13)
 # Add your tests here
 
-print("\nTesting Problem 3:")
-# Add your tests here
-
-print("\nTesting Problem 4:")
-# Add your tests here
-
-print("\nTesting Problem 5:")
-# Add your tests here
-
+print("Testing Problem 5:" + categorize_grade(82))
+print("testing sumlist:")
+print(sum_list([1, 2, 3, 4, 5]))  
+# Add your tests here6
+print("testing find max")
+print(find_max([1, 2, 3, 4, 5]))
 
