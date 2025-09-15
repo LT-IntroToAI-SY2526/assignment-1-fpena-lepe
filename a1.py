@@ -41,7 +41,7 @@ Description:
 Create a program that stores your name in a variable and prints a greeting like "Hello, <name>!"
 """
 name="Franco"
-print("Hello "+name)
+print("Hello "+ name)
 
 """
 Problem 2: Odd or Even Checker
@@ -50,6 +50,7 @@ Description:
 Ask the user to input an integer. Print "Even" if the number is even, and "Odd" if it’s odd.
 Hint: Use the modulo operator %.
 """
+
 num=int(input("Enter a number:"))
 if num%2==0:
     print("even")
